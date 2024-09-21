@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Courgette&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Courgette&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: rgb(40, 38, 38);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+nav {
+     font-family: "Anek Devanagari", sans-serif;;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+nav ul li {
+   padding: 0 12px;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('retro.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i {
+    cursor: pointer;
+}
+ .songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    border-radius: 30px;
+    align-items: center;
+ }
+ .songItem img {
+    width: 35px;
+    margin: 0 20px;
+ }
+ .timeStamp{
+    margin: 0 23px;
+ }
+ .timeStamp i {
+    cursor: pointer;
+ }
+ .songitemContainer{
+    margin-top: 74px;
+ }
+ .songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Ubuntu", sans-serif;
+ }
+ .songInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+ }
